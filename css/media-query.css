@@ -24,7 +24,7 @@ body{
 main{
     background-color: white;
     width: 100vw;
-    height: 300px;
+    height: 100vh;
     display: flex;
     margin: auto;
     flex-direction: column;
@@ -52,8 +52,8 @@ main{
     color: var(--rosa);
 }
 #login{
-    height: 70vh;
-    width: 430px;
+    height: 100vh;
+    width: 100vw;
     overflow-y: hidden;
     background-color: white;
     display: flex;

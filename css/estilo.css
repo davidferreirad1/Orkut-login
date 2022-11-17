@@ -1,0 +1,132 @@
+@charset"UTF-8";
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --rosa:#ED2590;
+}
+
+a{
+    color: #5E6D98;
+}
+body{
+    background-color: rgb(198, 252, 234);
+
+}
+main{
+    background-color: white;
+    width: 800px;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 15%;
+    margin-left: 5%;
+    border-radius: 5px 0px 0px 5px;
+}
+
+#principal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#principal > img{
+    width: 300px;
+}
+#principal > p{
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 100;
+}
+.letra-rosa{
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--rosa);
+}
+#login{
+    height: 500px;
+    width: 450px;
+    margin: auto;
+    transform:translate(87%,-100%);
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: 0px 5px 5px 0px;
+}
+
+.titulo-login{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin: 30px;
+}
+
+.campo{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    margin:5px 0px;
+}
+
+.input{
+    border:1px solid gray;
+    border-color: gray;
+    margin: 5px;
+    width: 250px;
+    height: 40px;
+}
+
+.checkbox{
+    margin: 15px;
+}
+.checkbox > label{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.checkbox > input{
+    width: 50px;
+    height: 15px;
+}
+
+.checkbox > p{
+    color: #B7B5C8;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 33px;
+
+}
+
+.btn-login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.445);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    height: 30px;
+    width: 60px;
+}
+
+.acessar-conta{
+    margin: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    
+}
+
+.paragrafo-final{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    margin: 20px 0px 20px 0px;
+}

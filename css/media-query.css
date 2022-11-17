@@ -1,0 +1,132 @@
+/* 
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... } */
+
+@media (max-width:414px) {
+
+   
+a{
+    color: #5E6D98;
+}
+body{
+    background-color: rgb(198, 252, 234);
+
+}
+main{
+    background-color: white;
+    width: 100vw;
+    height: 300px;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#principal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#principal > img{
+    width: 200px;
+}
+#principal > p{
+    display: none;
+}
+.letra-rosa{
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--rosa);
+}
+#login{
+    height: 70vh;
+    width: 430px;
+    overflow-y: hidden;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    transform: translate(-3%,0%);
+}
+
+.titulo-login{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin: 30px;
+}
+
+.campo{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    margin:5px 0px;
+}
+
+.input{
+    border:1px solid gray;
+    border-color: gray;
+    margin: 5px;
+    width: 250px;
+    height: 40px;
+}
+
+
+.checkbox > label{
+    margin-left: 65px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.checkbox > input{
+    width: 50px;
+    height: 15px;
+}
+
+.checkbox > p{
+    display: none;
+
+}
+
+.btn-login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.445);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    height: 30px;
+    width: 60px;
+}
+
+.acessar-conta{
+    margin: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    
+}
+
+.paragrafo-final{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    margin: 20px 0px 10px 0px;
+}
+
+
+}
